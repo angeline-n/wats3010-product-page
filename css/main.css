@@ -2,7 +2,15 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+
+}
+
+.footer-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-item-flex {
+	flex: 0 1 auto;
 }
