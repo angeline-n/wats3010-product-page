@@ -1,8 +1,12 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
+body, h2 {
+	padding-top: 71px;
+}
 
+body {
+  position: relative;
 }
 
 .footer-flex {
