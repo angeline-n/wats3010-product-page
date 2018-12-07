@@ -25,36 +25,51 @@
 		<link href="css/main.css" rel="stylesheet">
 
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#main-nav" data-offset="0">
 	
 		<!-- Navigation -->
 		
-		<nav id="main-nav" class="navbar navbar-light bg-light fixed-top">
-			<a class="navbar-brand" href="#">Rozlens</a>
-			<ul class="nav nav-pills">
-				<li class="nav-item">
-				<a class="nav-link" href="#about">About</a>
-				</li>
-				<li class="nav-item">
-				<a class="nav-link" href="#features">Features</a>
-				</li>
-				<li class="nav-item">
-				<a class="nav-link" href="#testimonials">Testimonials</a>
-				</li>
-				<li class="nav-item">
-				<a class="nav-link" href="#contact">Contact</a>
-				</li>
-			</ul>
+		<nav id="main-nav" class="navbar navbar-light bg-light fixed-top navbar-expand-lg">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="images/logos/logo.png" alt="Rozlens logo"></a>
+		
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="nav nav-pills ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#features">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#testimonials">Testimonials</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
 	
+		
+	
 		<!-- Masthead -->
+		
+		<header class="masthead text-center text-white">
+			<div class="container">
+				<h1> Rozlens </h1>
+				<p class="slogan">Helping you look at the bright side of life</p>
+			</div>
+		</header>
 	
-		<h1> Rozlens </h1>
-		<p class="slogan">Helping you look at the bright side of life</p>
+		<!-- Page Content -->
 	
-	
-		<!-- Scrollspy -->
-		<div data-spy="scroll" data-target="#main-nav" data-offset="0">
+		<div class="container">
  
 		<!-- About -->
  
@@ -64,6 +79,8 @@
 
 		<!-- Features -->	
  
+		<div class="row align-items-center">
+		<div class= "container col-md-4">
 		<h2 id="features">Features</h2>
 
 		<ul>	
@@ -72,9 +89,16 @@
 			<li>Fully programmable—Block some or all negativity; customize your reality!</li>
 			<li>Easy payment options—Pay with credit card, PayPal, check, cash, IOU, or trade!</li>
 		</ul> 
-
+		</div>
 		
 			<!-- Explainer Video -->
+			
+			<div class="embed-responsive embed-responsive-16by9 col-md-8">
+				 
+			<iframe class="embed-responsive-item" title="Rozlens explainer video" src="https://www.youtube.com/embed/E9t4Z4iPSiQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			
+		</div>
   
 		<!-- Testimonials -->
   
@@ -121,5 +145,9 @@
 		<!-- Bootstrap core JavaScript -->
 		<script src="vendor/jquery/jquery.min.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		
+		<!-- Scrollspy JavaScript -->
+		<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+		
     </body>
 </html>
