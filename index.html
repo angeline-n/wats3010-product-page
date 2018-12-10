@@ -25,7 +25,7 @@
 		<link href="css/main.css" rel="stylesheet">
 
     </head>
-    <body data-spy="scroll" data-target="#main-nav" data-offset="0">
+    <body data-spy="scroll" data-target="#main-nav" data-offset="20">
 	
 		<!-- Navigation -->
 		
@@ -38,7 +38,7 @@
 				</button>
 			
 				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="nav nav-pills ml-auto">
+					<ul class="nav nav-pills ml-auto list-unstyled">
 						<li class="nav-item">
 							<a class="nav-link" href="#about">About</a>
 						</li>
@@ -55,16 +55,20 @@
 				</div>
 			</div>
 		</nav>
-	
 		
 	
 		<!-- Masthead -->
 		
-		<header class="masthead text-center text-white">
-			<div class="container">
-				<h1> Rozlens </h1>
-				<p class="slogan">Helping you look at the bright side of life</p>
+		<header class="masthead text-center">
+		<div class="container d-flex flex-column justify-content-center align-self-end">
+			<div class="row">
+				<div class="col">
+					<h1 class="text-uppercase">Rozlens</h1>
+					<p>Helping you look at the bright side of life.</p>
+					<a href="#about" class="btn btn-primary js-scroll-trigger">Learn More</a>
+				</div>
 			</div>
+		</div>
 		</header>
 	
 		<!-- Page Content -->
@@ -73,61 +77,132 @@
  
 		<!-- About -->
  
-		<h2 id="about">About</h2>
-		
-		<p>Rozlens: the latest in augmented reality technology. Adjustable to any prescription, our glasses increase happiness by blocking out negativity. Perfect for personal and professional use. Different styles to match your taste and attire. Your happiness starts today…with Rozlens!</p>
+		<div class="card">
+			<h2 id="about" class="card-header">About</h2>
+			<div class="card-body">
+				<p class="card-text">Rozlens: the latest in augmented reality technology. Adjustable to any prescription, our glasses increase happiness by blocking out negativity. Perfect for personal and professional use. Different styles to match your taste and attire. Your happiness starts today…with Rozlens!</p>
+			</div>
+		</div>
 
 		<!-- Features -->	
- 
-		<div class="row align-items-center">
-		<div class= "container col-md-4">
-		<h2 id="features">Features</h2>
-
-		<ul>	
-			<li>Increase happiness—Enjoy your day-to-day life by eliminating negativity!</li>
-			<li>Boost productivity—People who enjoy what they do get more done!</li>
-			<li>Fully programmable—Block some or all negativity; customize your reality!</li>
-			<li>Easy payment options—Pay with credit card, PayPal, check, cash, IOU, or trade!</li>
-		</ul> 
+		
+		<div class="card">
+			<h2 id="features" class="card-header">Features</h2>
+			<div class="card-body">
+				<div class="media">
+					<div class="card-text media-body col-md-4 d-flex align-self-center">
+					<ul class="list-unstyled">	
+						<li><span class="fas fa-smile-beam"></span>Increase happiness—Enjoy your day-to-day life by eliminating negativity!</li>
+						<li><span class="fas fa-chart-line"></span>Boost productivity—People who enjoy what they do get more done!</li>
+						<li><span class="fas fa-cogs"></span>Fully programmable—Block some or all negativity; customize your reality!</li>
+						<li><span class="fas  fa-dollar-sign"></span>Easy payment options—Pay with credit card, PayPal, check, cash, IOU, or trade!</li>
+					</ul> 
+					</div>
+			
+					<!-- Explainer Video -->
+			
+					<div class="embed-responsive embed-responsive-16by9 col-md-8">	 
+						<iframe class="embed-responsive-item" title="Rozlens explainer video" src="https://www.youtube.com/embed/E9t4Z4iPSiQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
 		</div>
 		
-			<!-- Explainer Video -->
-			
-			<div class="embed-responsive embed-responsive-16by9 col-md-8">
-				 
-			<iframe class="embed-responsive-item" title="Rozlens explainer video" src="https://www.youtube.com/embed/E9t4Z4iPSiQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-			
-		</div>
-  
 		<!-- Testimonials -->
   
-		<h2 id="testimonials">Testimonials</h2>
+		<div class="card">
+			<h2 id="testimonials" class="card-header">Testimonials</h2>
+			
+		<div class="card-body">
 		
-		<ul>	
-			<li>“I used to be extremely irritable before Rozlens. Now, I am happier and everyone around me is happier as a result. I was even invited to my first party, all thanks to Rozlens!” ­­ John Smith, a regular guy</li>
-			<li>“What I love about Rozlens is that they’re completely customizable. With Stop&Smell, all negativity was always countered with the smell of flowers. I started getting sick of flowers! Rozlens allows me to decide how much negativity to let into my life. I even get to decide whether to remove or replace it. I’ve been so much happier since replacing all images of Mr. Politician with images of cute kittens!” ­­ Ann Onn, former Stop&Smell user</li>
-			<li>“Since getting Rozlens for my employees, I’ve seen a 325% increase in productivity! We’re now on track to having our most profitable year ever!” ­­ Jane Doe, CEO of Large Company</li>
-		</ul> 
-
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<!-- Slide One -->
+				<div class="carousel-item active" style="background-color: rgb(0, 0, 0)">
+					<div class="carousel-caption d-block">
+						<p>“I used to be extremely irritable before <i>Rozlens</i>. Now, I am happier and everyone around me is happier as a result. I was even invited to my first party, all thanks to <i>Rozlens</i>!” &mdash; John Smith, a regular guy</p>
+					</div>
+				</div>
+				<!-- Slide Two -->
+				<div class="carousel-item" style="background-color: rgb(0, 0, 0)">
+					<div class="carousel-caption d-block">
+						<p>“What I love about <i>Rozlens</i> is that they’re completely customizable. With <i>Stop&amp;Smell</i>, all negativity was always countered with the smell of flowers. I started getting sick of flowers! <i>Rozlens</i> allows me to decide how much negativity to let into my life. I even get to decide whether to remove or replace it. I’ve been so much happier since replacing all images of Mr. Politician with images of cute kittens!” &mdash; Ann Onn, former <i>Stop&amp;Smell</i> user</p>
+					</div>
+				</div>
+				<!-- Slide Three -->
+				<div class="carousel-item" style="background-color: rgb(0, 0, 0)">
+					<div class="carousel-caption d-block">
+						<p>“Since getting <i>Rozlens</i> for my employees, I’ve seen a 325% increase in productivity! We’re now on track to having our most profitable year ever!” &mdash; Jane Doe, CEO of <i>Large Company</i></p>
+					</div>
+				</div>
+			<!-- /carousel-inner -->
+			</div>
+			
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+			</a>
+		<!-- /carouselExampleIndicators -->
+		</div>
+		<!-- /card-body -->
+		</div>
+		<!-- /card -->
+		</div>
+		
 		<!-- Call to Action -->
   
-		<p>Don’t wait for happiness, get Rozlens today! Buy one, get one 25% off! Corporate discounts available.</p>
+		<div class="call-to-action row">
+			<div class="col-md-9 text-right">
+				<p>Don’t wait for happiness, get Rozlens today! Buy one, get one 25% off! Corporate discounts available.</p>
+			</div>
+			
+			<div class="col-md-3 d-flex justify-items-start">
+				<a href="#" class="btn btn-primary">Order Now</a>
+			</div>
+		</div>
   
 		<!-- Contact -->
   
-		<h2 id="contact">Contact</h2>
-		
-		<p>Location: 123 N 4th St, City, State 56789, USA</p>
-		<p>Phone: +1 (123) 456-7890</p>
-		<p>Email: contact@rozlens.com</p>
-
+		<div class="card">
+			<h2 id="contact" class="card-header">Contact</h2>
+			<div class="card-deck">
+				<div class="card">
+					<div class="card-body">
+						<span class="fas fa-map-marker-alt"></span>
+						<p class="card-text text-center">123 N 4th St, City, State 56789, USA</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-body">
+						<span class="fas fa-phone"></span>
+						<p class="card-text text-center">+1 (123) 456-7890</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-body">
+						<span class="fas fa-envelope"></span>
+						<p class="card-text text-center">contact@rozlens.com</p>
+					</div>
+				</div>
+			</div>
 		</div>
-		<!-- /Scrollspy -->
+		
+		
+		<!-- /Container -->
+		</div>
 		
         <!-- Footer -->
-   
-		<footer class="py-3">
+		<footer class="bg-light py-3">
     
 		<div class="container">
 			<div class="footer-flex">
