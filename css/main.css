@@ -1,12 +1,63 @@
 /* Styles for Product Page Customization */
-/* NOTE: Do not edit the Bootstrap CSS files. */
 
-body, h2 {
-	padding-top: 71px;
+/* General Styles */
+
+body{
+	position: relative;
 }
 
-body {
-  position: relative;
+h2.card-header {
+	padding-top: 155px;
+	background-color: rgb(255,255,255);
+}
+
+.card {
+	border: 0;
+}
+
+/* Navigation Styles */
+
+a.nav-link {
+	font-size: 1.2rem;
+}
+
+/* Header Styles */
+
+header {
+	margin-top: 125px;
+}
+
+.masthead {
+  min-height: 30rem;
+  padding-top: 18rem;
+  background-color: rgb(255,55,40);
+  background-image: url("../images/masthead.jpg");
+  background-position: bottom center;
+  background-size: cover;
+}
+
+/* Testimonial Styles */
+
+.carousel-item {
+  height: 60vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Call to Action */
+
+.call-to-action {
+	margin-top: 125px;
+}
+
+/* Footer Styles */
+
+footer {
+	margin-top: 100px;
 }
 
 .footer-flex {
